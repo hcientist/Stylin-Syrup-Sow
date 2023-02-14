@@ -12,7 +12,18 @@
   <link rel="apple-touch-icon" sizes="76x76" href="assets/apple-touch-icon-76x76.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon-60x60.png">
   <style>
-    /* we'll put the css here */
+    h1 {
+      text-align:center;
+      color:brown;
+    }
+
+    #navtable, #navtable td {
+      border: solid 1pt black;
+      border-collapse: collapse;
+      padding-left: 10pt;
+      padding-right: 10pt;
+    }
+    
   </style>
 </head>
 
@@ -23,19 +34,21 @@
   </header>
 
   <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Random</a></li>
-      <li><a href="#">Nearby</a></li>
-      <li><a href="#">Username</a></li>
-      <li><a href="#">Watchlist</a></li>
-      <li><a href="#">Contributions</a></li>
-      <li><a href="#">Settings</a></li>
-      <li><a href="#">Log out</a></li>
-      <li><a href="#">Donate</a></li>
-      <li><a href="#">About Wikipedia</a></li>
-      <li><a href="#">Disclaimers</a></li>
-    </ul>
+    <table id="navtable">
+      <tr>
+        <td><a href="#">Home</a></td>
+        <td><a href="#">Random</a></td>
+        <td><a href="#">Nearby</a></td>
+        <td><a href="#">Username</a></td>
+        <td><a href="#">Watchlist</a></td>
+        <td><a href="#">Contributions</a></td>
+        <td><a href="#">Settings</a></td>
+        <td><a href="#">Log out</a></td>
+        <td><a href="#">Donate</a></td>
+        <td><a href="#">About Wikipedia</a></td>
+        <td><a href="#">Disclaimers</a></td>
+      </tr>
+    </table>
   </nav>
 
   <main id="content">
@@ -89,7 +102,7 @@
       <p>Brown bears are thought to have evolved from Ursus etruscus in Asia.[21][22] The brown bear, per Kurten (1976), has been
       stated as "clearly derived from the Asian population of Ursus savini about 800,000 years ago; spread into Europe, to the
       New World."[23] A genetic analysis indicated that the brown bear lineage diverged from the cave bear species complex
-      approximately 1.2–1.4 million years ago, but did not clarify if U. savini persisted as a paraspecies for the brown bear
+      approximately 1.2 to 1.4 million years ago, but did not clarify if U. savini persisted as a paraspecies for the brown bear
       before perishing.[24] The oldest fossils positively identified as from this species occur in China from about 0.5
       million years ago. Brown bears entered Europe about 250,000 years ago and North Africa shortly after.[21][25] Brown bear
       remains from the Pleistocene period are common in the British Isles, where it is thought they might have outcompeted
@@ -139,9 +152,9 @@
       <p>Brown bears are apparently divided into five different clades, some of which coexist or co-occur in different
       regions.[3]</p>
       <h3>Hybrids</h3>
-      <a href="#" class="see-also">See also: Grizzly–black bear hybrid and Grizzly–polar bear hybrid</a>
+      <a href="#" class="see-also">See also: Grizzly black bear hybrid and Grizzly polar bear hybrid</a>
 
-      <p>A grizzly–polar bear hybrid (known either as a pizzly bear or a grolar bear) is a rare ursid hybrid resulting from a
+      <p>A grizzly polar bear hybrid (known either as a pizzly bear or a grolar bear) is a rare ursid hybrid resulting from a
       crossbreeding of a brown bear and a polar bear. It has occurred both in captivity and in the wild. In 2006, the
       occurrence of this hybrid in nature was confirmed by testing the DNA of a strange-looking bear that had been shot in the
       Canadian Arctic, and seven more hybrids have since been confirmed in the same region, all descended from a single female
@@ -187,8 +200,9 @@
   </main>
 
   <aside>
-    <h3>Article Talk</h3>
+    
     <section>
+      <h3>Article Talk</h3>
       <ul>
         <li><a href="#">Language</a></li>
         <li><a href="#">Watch</a></li>
@@ -196,8 +210,9 @@
         <li><a href="#">Edit</a></li>
       </ul>
     </section>
-    <h3>Meta</h3>
+    
     <section>
+      <h3>Meta</h3>
       <ul>
 
         <li><a href="#">Page information</a></li>
